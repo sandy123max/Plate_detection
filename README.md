@@ -62,7 +62,7 @@ The recognized text is added to the original image using OpenCV's putText functi
 
 
 Write OCR Result to a File:
-en('requirements.txt', 'w')
+file=open('requirements.txt', 'w')
 file.write(text)
 file.close()
 The recognized license plate number is written to a file named 'requirements.txt'.
